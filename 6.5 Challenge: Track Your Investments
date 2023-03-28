@@ -1,0 +1,25 @@
+def invest(amount, rate, years):
+    i = 0
+    while i < years:
+        i += 1
+        amount += amount * rate
+        print(f"year {i}: ${amount:.2f}")
+def end(amount):
+    x = 0
+    while x == 0:
+        trigger = float(input("Please, to close the program enter your amount again:"))
+        if trigger == amount:
+            print("Program is exit")
+            x = 1
+        else:
+            print("Wrong data!")
+            x = 0
+amount=float(input("Enter amount: "))
+rate=float(input("Enter rate (for example: 0.05): "))
+years=float(input("Enter years: "))
+invest(amount, rate, years)
+end(amount)
+
+
+
+
