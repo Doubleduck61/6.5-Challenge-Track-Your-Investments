@@ -1,0 +1,11 @@
+def dry():
+    try:
+        integer = int(input("Enter integer value: "))
+        print(f"Great! You have writen number {integer}!")
+        global b
+        b=1
+    except ValueError:
+        print("Try again")
+b=0
+while b == 0:
+    dry()
