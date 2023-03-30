@@ -1,0 +1,10 @@
+print("Enter string: ")
+string=input()
+try:
+    print("Enter integer: ")
+    integer=int(input())
+    print(f"{string[integer]}")
+except (TypeError,ValueError):
+    print("It's not string!")
+except IndexError:
+    print("It's to much!")
