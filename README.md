@@ -1,2 +1,2 @@
-# 6.5-Challenge-Track-Your-Investments
-Do programu wpisujemy liczbę(np. 100), następnie o ile procent program ma ją zwiększać (np 5% - wpisujemy 0.05) oraz przez ile lat chcemy obserwować wzrost ceny(np. 4). Następnie, po wpisaniu początkowej liczby w naszym przypadku 100) program zakończy się. W przypadku wpisania innej liczby, program będzie zapętlony aż do podania właściwej liczby. Głównie skupiam się na wprowadzeniu funkcji def oraz na pleceniu jej w kod.
+# Exercises from Python Basic
+
